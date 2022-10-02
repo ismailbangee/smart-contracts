@@ -2,16 +2,19 @@ Contributing Guidelines
 
 How can I contribute?
 
-Fixing Existing solidity Smart Contracts
+
+## Fixing Existing solidity Smart Contracts
 ====================================
 You can fix existing solidity smart contracts. Fix any issues found in existing solidity smart contracts. You can add new functions in Current solidity smart contract that already build.
 
-Create New solidity Smart Contract
+
+## Create New solidity Smart Contract
 ====================================
 Create new smart contracts in the existing categories or you can also create new categories. For example you can create "Hotel" category and create new solidity smart contract inside it or you can create and new solidity smart contract inside any existing category let suppose you want to create new solidity smart contract inside "Real Estate" category or "NFT" or any other categories.  
 
 
-Right Now we have these categories:
+
+## Right Now we have these categories:
 ==========================================
 
 Chainlink (Any solidity smart contract with utilization of chainlink.)
@@ -69,30 +72,27 @@ Message Format <your_message>
 ===================
 
 If you are creating category and create new smart contract inside it.
-========================================================================
 
-category: category name.
-category_description: description about the category  (why we need that contract. Who will benefit from it.)
+- category: category name.
+- category_description: description about the category  (why we need that contract. Who will benefit from it.)
 
-smart_contract: smart_contract name.
-smart_contract_description: description about the smart_contract (why we need that contract. Who will benefit from it.)
+- smart_contract: smart_contract name.
+- smart_contract_description: description about the smart_contract (why we need that contract. Who will benefit from it.)
 
 If you are creating new smart contract inside any existing category.
-========================================================================
 
-smart_contract: smart_contract name.
-smart_contract_description: description about the smart_contract (why we need that contract. Who will benefit from it.)
+- smart_contract: smart_contract name.
+- smart_contract_description: description about the smart_contract (why we need that contract. Who will benefit from it.)
 
 If you are fixing existing smart contract.
-========================================================================
 
-
-bug: description about the bug
-solution: description how you fix it.
+- bug: description about the bug
+- solution: description how you fix it.
 
 7. Push your local commits to the remote repository.
 
 git push origin new-branch
+
 8. Create a new pull request from new-branch
 
 9. Wait until the maintainers review your pull request.
