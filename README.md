@@ -12,3 +12,12 @@ This is the repository for solidity smart contract from different categories. In
 - Real Estate (Any real estate solidity smart contract.)
 - School  (Any school related solidity smart contract.)
 - Social Media (Any social media related solidity smart contract.)
+
+
+## How can I contribute?
+
+[how can i contribute]
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+[how can i contribute]: <https://github.com/ismailbangee/smart-contracts/blob/main/CONTRIBUTING.md>
