@@ -1,6 +1,6 @@
-Contributing Guidelines
+## Contributing Guidelines
 
-How can I contribute?
+## How can I contribute?
 
 
 ## Fixing Existing solidity Smart Contracts
