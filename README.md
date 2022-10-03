@@ -1,6 +1,6 @@
 ## Solidity Smart Contracts
 
-This is the repository for solidity smart contract from different categories. In this repository you will find solidity smart contracts use cases. This repository help out community to think and implement smart contracts in sectors. 
+This is the repository for solidity smart contract from different categories. In this repository you will find solidity smart contracts use cases. This repository help out community to think and implement smart contracts in different sectors. 
 
 ## Right Now we have these categories:
 
