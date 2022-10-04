@@ -10,11 +10,11 @@ You can fix existing solidity smart contracts. Fix any issues found in existing 
 
 ## Create New solidity Smart Contract
 ====================================
-Create new smart contracts in the existing categories or you can also create new categories. For example you can create "Hotel" category and create new solidity smart contract inside it or you can create and new solidity smart contract inside any existing category let suppose you want to create new solidity smart contract inside "Real Estate" category or "NFT" or any other categories.  
+Create new smart contracts in the existing use cases or you can also create new use cases. For example you can create "Hotel" use case and create new solidity smart contract inside it or you can create and new solidity smart contract inside any existing use cases, lets suppose you want to create new solidity smart contract inside "Real Estate" use case or "NFT" or any other use cases.  
 
 
 
-## Right Now we have these categories:
+## Right Now we have these use cases:
 ==========================================
 
 Chainlink (Any solidity smart contract with utilization of chainlink.)
@@ -38,8 +38,8 @@ Comment the code properly so anyone can understand the code.
 Git Commit Messages
 =====================================
 If you are fixing any thing inside existing solidity smart contract write details about it.
-If you are creating new solidity smart contract in any existing category then define why we need that contract in this category.   
-If you are creating new category then define how solidity smart contract will be beneficial in that category.
+If you are creating new solidity smart contract in any existing use case then define why we need that contract in this use case.   
+If you are creating new use case then define how solidity smart contract will be beneficial in that use case.
 
 How to Contribute
 ===============================
@@ -71,15 +71,15 @@ git commit -m "<your_message>"
 Message Format <your_message>
 ===================
 
-If you are creating category and create new smart contract inside it.
+If you are creating use case and create new smart contract inside it.
 
-- category: category name.
-- category_description: description about the category  (why we need that contract. Who will benefit from it.)
+- category: use case name.
+- category_description: description about the use case  (why we need that contract. Who will benefit from it.)
 
 - smart_contract: smart_contract name.
 - smart_contract_description: description about the smart_contract (why we need that contract. Who will benefit from it.)
 
-If you are creating new smart contract inside any existing category.
+If you are creating new smart contract inside any existing use case.
 
 - smart_contract: smart_contract name.
 - smart_contract_description: description about the smart_contract (why we need that contract. Who will benefit from it.)
