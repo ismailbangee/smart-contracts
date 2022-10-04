@@ -4,6 +4,9 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract Rent {
 
+    error notOwner();
+    error alreadyRented();
+
     address public immutable owner;
     uint256 private counterProperty;
     uint256 private counterTenant;
@@ -41,15 +44,23 @@ contract Rent {
     }
 
 
-    modifier isAlreadyRented(uint256 propertyId) {
+    modifier isAvailable(uint256 propertyId) {
 
         string memory currentStatus = properties[propertyId].status;
 
-        require(
-                keccak256(abi.encodePacked(currentStatus)) == keccak256(abi.encodePacked('available')),
-                "Already Rented"
-            );
+        if(
+                keccak256(abi.encodePacked(currentStatus)) != keccak256(abi.encodePacked('available'))
+            ){
+                revert alreadyRented();
+            }
 
+        _;
+    }
+
+    modifier onlyOwner() {
+        if(msg.sender != owner){
+            revert notOwner();
+        }
         _;
     }
 
@@ -85,7 +96,7 @@ contract Rent {
         string memory name,
         string memory phone,
         string memory email
-        ) public isAlreadyRented(propertyId) {
+        ) public isAvailable(propertyId) {
 
         tenant storage newTenant = tenants[counterTenant];    
 
@@ -102,5 +113,9 @@ contract Rent {
 
     function propertyStatus(uint256 propertyId) public view returns (string memory) {
         return properties[propertyId].status;
+    }
+
+    function emptyRentedProperty(uint256 propertyId) public onlyOwner {
+        properties[propertyId].status = 'available';
     }
 }
