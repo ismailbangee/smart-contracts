@@ -9,6 +9,7 @@ You can apply smart contracts to almost any kind of transaction or business mode
 - NFT (Any solidity smart contract related to NFT.)
 - Real Estate (Any real estate solidity smart contract.)
 - School  (Any school related solidity smart contract.)
+- College (College/University related smart contracts.)
 - Social Media (Any social media related solidity smart contract.)
 - Chainlink (Any solidity smart contract with utilization of chainlink.)
 - Helpers (Helpers solidity smart contracts have some useful functionality so they can extend to main smart contract. Also have code snippet that can be use in any smart contract. )
