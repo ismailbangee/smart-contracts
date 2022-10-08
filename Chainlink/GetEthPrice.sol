@@ -21,13 +21,20 @@ contract PriceConsumerV3 {
      */
     function getLatestPrice() public view returns (int) {
         (
-            /*uint80 roundID*/,
-            int price,
-            /*uint startedAt*/,
-            /*uint timeStamp*/,
-            /*uint80 answeredInRound*/
+        uint80 roundID,
+        int price,
+        /*uint startedAt*/,
+        uint timeStamp,
+        uint80 answeredInRound
         ) = priceFeed.latestRoundData();
+        require(
+            timeStamp != 0,
+            "PriceConsumerV3::getLatestAnswer: round is not complete"
+        );
+        require(
+            answeredInRound >= roundID,
+            "PriceConsumerV3::getLatestAnswer: stale data"
+        );
         return price;
-    
     }
 }
