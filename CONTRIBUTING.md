@@ -10,7 +10,7 @@ You can fix existing solidity smart contracts. Fix any issues found in existing 
 
 ## Create New solidity Smart Contract
 ====================================
-Create new smart contracts in the existing use cases or you can also create new use cases. For example you can create "Hotel" use case and create new solidity smart contract inside it or you can create and new solidity smart contract inside any existing use cases, lets suppose you want to create new solidity smart contract inside "Real Estate" use case or "NFT" or any other use cases.  
+Create new smart contracts in the existing use cases or you can also create new use cases. For example, you can create "Hotel" use case and create new solidity smart contract inside it or you can create and new solidity smart contract inside any existing use cases, let's suppose you want to create new solidity smart contract inside "Real Estate" use case or "NFT" or any other use cases.  
 
 
 
@@ -37,7 +37,7 @@ Comment the code properly so anyone can understand the code.
 
 Git Commit Messages
 =====================================
-If you are fixing any thing inside existing solidity smart contract write details about it.
+If you are fixing anything inside existing solidity smart contract write details about it.
 If you are creating new solidity smart contract in any existing use case then define why we need that contract in this use case.   
 If you are creating new use case then define how solidity smart contract will be beneficial in that use case.
 
